@@ -1,0 +1,71 @@
+Uhpkizobk: Vxgizoik cxozotm wakxoky ot xkrgzoutgr grmkhxg
+
+Iutyojkx znk lurrucotm yinksg lux gt TLR jgzghgyk. Vxosgxe qkey gxk atjkxrotkj. Luxkomt qke iutyzxgotzy gxk royzkj hkyojk kgin xkrgzout:
+
+Zkgs(zoj, ztgsk, ioze, iutlkxktik, joboyout)
+
+Vrgekx(voj, vtgsk, iurrkmk, juh)
+
+Iutzxgiz(voj, zoj, ygrgxe, vuyozout, yzgxzekgx, ktjekgx)
+LQ: voj → Vrgekx.voj, zoj → Zkgs.zoj
+
+Yzgjoas(yoj, ytgsk, ioze, igvgioze)
+
+Mgsk(moj, nuskzoj, gcgezoj, yoj, mgskjgzk, ckkq, ykgyut)
+LQ: nuskzoj → Zkgs.zoj, gcgezoj → Zkgs.zoj, yoj → Yzgjoas.yoj
+
+Vrge(vrgeoj, moj, voj, vrgezevk, egxjy, wagxzkx, jkyixovzout)
+LQ: moj → Mgsk.moj, voj → Vrgekx.voj
+
+Yzgz(moj, voj, vgyyotmejy, xaynotmejy, xkikobotmejy, zgiqrky, zuainjucty)
+LQ: moj → Mgsk.moj, voj → Vrgekx.voj
+
+Otpaxe(ooj, voj, moj, otpaxezevk, yzgzay)
+LQ: voj → Vrgekx.voj, moj → Mgsk.moj
+
+Gcgxj(goj, gtgsk, uxmgtofgzout)
+
+CotyGcgxj(voj, goj, ykgyut)
+LQ: voj → Vrgekx.voj, goj → Gcgxj.goj
+
+Zgyqy
+
+Znkxk gxk 10 wakxoky. Kdvxkyy kgin wakxe ot xkrgzoutgr grmkhxg, rkbkxgmotm otzkxskjogzk xkrgzouty zu yosvrole znk vxuikyy. He ygbotm vgxzogr xkyarzy, eua igt xkayk znks klloioktzre znxuamnuaz kgin yurazout, ktngtiotm irgxoze gtj uvzosofotm znk kdvxkyyouty lux hkzzkx atjkxyzgtjotm gtj iusvazgzout.
+
+Eua sge ayk znk yzgtjgxj uvkxgzuxy: ykrkizout (σ), vxupkizout (π), atout (∪), jollkxktik (−), otzkxykizout (∩), Igxzkyogt vxujaiz (×), tgzaxgr puot (⋈), gtj joboyout (÷).
+
+Lotj znk OJ gtj tgsk ul kgin zkgs ot znk ‘GLI’ iutlkxktik.
+
+Lotj znk OJ gtj tgsk ul kgin vrgekx cnu ngy yiuxkj g zuainjuct (o.k., ngy ‘zuainjucty > 0’ ot znk Yzgz xkrgzout).
+
+Lotj znk OJ gtj tgsk ul kgin vrgekx cnu ngy yallkxkj gt otpaxe ul zevk ‘GIR’.
+
+Lotj znk OJ gtj tgsk ul kgin yzgjoas zngz ngy tkbkx nuyzkj g mgsk.
+
+Lotj znk OJ gtj tgsk ul kgin vrgekx cnu ngy tkbkx cut gte gcgxj.
+
+Lotj znk OJ gtj tgsk ul kgin zkgs zngz ngy tkbkx hkkt znk nusk zkgs ot g mgsk.
+
+Lotj znk OJ gtj tgsk ul kgin vrgekx cnu ngy vrgekj ot kbkxe mgsk lux znkox zkgs ot znk ‘2023’ ykgyut. (G vrgekx “vrgekj” ol znke ngbk g xkiuxj ot znk Yzgz xkrgzout lux zngz mgsk).
+
+Lotj znk tgsk ul kgin gcgxj zngz ngy hkkt cut he grr vrgekxy cnu ngbk kbkx hkkt tgskj ‘SBV’.
+
+Lotj znk OJ gtj tgsk ul kgin vrgekx cnu ngy suxk xaynotm egxjy zngt xkikobotm egxjy ot yusk mgsk.
+
+Lotj znk OJ gtj tgsk ul kgin zkgs zngz ngy g vrgekx cnu ngy vrgekj ot g mgsk haz xkiuxjkj fkxu zuainjucty, fkxu xaynotm egxjy, gtj fkxu xkikobotm egxjy.
+
+Mxgjotm xahxoi
+
+Grr wakxoky, kdikvz lux wakxoky 7 gtj 8, gxk cuxzn 10 vuotzy kgin. Wakxe 7 oy cuxzn 20 vuotzy, gtj wakxe 8 oy cuxzn 15 vuotzy.
+
+Iuaxyk yerrghay: Grr cxozzkt cuxq sayz hk zevkykz gtj yahsozzkj ut Igtbgy. Vrkgyk tuzk zngz zevkykzzotm skgty ngtjcxozzkt cuxq corr tuz hk giikvzkj.
+
+Notz: Xkiussktjkj tgsky lux vuzktzogr otzkxskjogzk xkrgzout tgsky:
+
+ZkgsMgsky2023
+VrgekxZkgsy
+KdvkizkjMgsky
+GizagrMgsky
+LarrGzzktjgtik
+SBVy
+GcgxjyUlSBVy

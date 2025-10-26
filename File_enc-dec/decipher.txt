@@ -1,0 +1,71 @@
+Objective: Practice writing queries in relational algebra
+
+Consider the following schema for an NFL database. Primary keys are underlined. Foreign key constraints are listed beside each relation:
+
+Team(tid, tname, city, conference, division)
+
+Player(pid, pname, college, dob)
+
+Contract(pid, tid, salary, position, startyear, endyear)
+FK: pid → Player.pid, tid → Team.tid
+
+Stadium(sid, sname, city, capacity)
+
+Game(gid, hometid, awaytid, sid, gamedate, week, season)
+FK: hometid → Team.tid, awaytid → Team.tid, sid → Stadium.sid
+
+Play(playid, gid, pid, playtype, yards, quarter, description)
+FK: gid → Game.gid, pid → Player.pid
+
+Stat(gid, pid, passingyds, rushingyds, receivingyds, tackles, touchdowns)
+FK: gid → Game.gid, pid → Player.pid
+
+Injury(iid, pid, gid, injurytype, status)
+FK: pid → Player.pid, gid → Game.gid
+
+Award(aid, aname, organization)
+
+WinsAward(pid, aid, season)
+FK: pid → Player.pid, aid → Award.aid
+
+Tasks
+
+There are 10 queries. Express each query in relational algebra, leveraging intermediate relations to simplify the process. By saving partial results, you can reuse them efficiently throughout each solution, enhancing clarity and optimizing the expressions for better understanding and computation.
+
+You may use the standard operators: selection (σ), projection (π), union (∪), difference (−), intersection (∩), Cartesian product (×), natural join (⋈), and division (÷).
+
+Find the ID and name of each team in the ‘AFC’ conference.
+
+Find the ID and name of each player who has scored a touchdown (i.e., has ‘touchdowns > 0’ in the Stat relation).
+
+Find the ID and name of each player who has suffered an injury of type ‘ACL’.
+
+Find the ID and name of each stadium that has never hosted a game.
+
+Find the ID and name of each player who has never won any award.
+
+Find the ID and name of each team that has never been the home team in a game.
+
+Find the ID and name of each player who has played in every game for their team in the ‘2023’ season. (A player “played” if they have a record in the Stat relation for that game).
+
+Find the name of each award that has been won by all players who have ever been named ‘MVP’.
+
+Find the ID and name of each player who has more rushing yards than receiving yards in some game.
+
+Find the ID and name of each team that has a player who has played in a game but recorded zero touchdowns, zero rushing yards, and zero receiving yards.
+
+Grading rubric
+
+All queries, except for queries 7 and 8, are worth 10 points each. Query 7 is worth 20 points, and query 8 is worth 15 points.
+
+Course syllabus: All written work must be typeset and submitted on Canvas. Please note that typesetting means handwritten work will not be accepted.
+
+Hint: Recommended names for potential intermediate relation names:
+
+TeamGames2023
+PlayerTeams
+ExpectedGames
+ActualGames
+FullAttendance
+MVPs
+AwardsOfMVPs
